@@ -11,3 +11,15 @@ body {
   text-align: center;
   font-family: var(--font-poppins);
 }
+
+body.light {
+  background-color: #ffffff;
+  color: #333333;
+  transition: background 0.3s ease; /* Para ficar suave */
+}
+
+body.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  transition: background 0.3s ease;
+}
