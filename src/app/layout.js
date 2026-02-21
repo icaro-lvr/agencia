@@ -1,10 +1,11 @@
 import Head from "next/head"
 import "./globals.css";
-import {Poppins} from 'next/font/google';
+import { Poppins } from 'next/font/google';
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700']
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-poppins',
 })
 
 export default function RootLayout({ children }) {
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-        <body className={poppins.className}>
+        <body className={poppins.variable}>
                
       
         {children}     
