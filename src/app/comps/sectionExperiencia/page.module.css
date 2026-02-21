@@ -1,0 +1,45 @@
+.sectionExp.dark{
+    background-color: #fff;
+    color: #fff;
+}
+
+
+.cards{
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0;
+    padding: 20px;
+}
+
+.container h2{
+    font-size: 2.1rem;
+}
+
+.container h2::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #feb633;
+    margin: 0 41%;
+}
+
+:global(body.dark){
+    color: #CCCCCC;
+    background-color: #393838;
+}
+
+.container p{
+    max-width: 600px;
+}
+
