@@ -5,10 +5,9 @@ import Banner from "./comps/secaoBanner/page.jsx";
 export default function Home() {
   return ( 
     <>
-  
+   
     <Banner/>
-
-
+    
     </>
   );
 }
