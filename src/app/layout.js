@@ -1,6 +1,7 @@
 import Head from "next/head"
 import "./globals.css";
 import { Poppins } from 'next/font/google';
+import Topo from "./comps/sectionTopo/topo.jsx";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
       </Head>
 
         <body className={poppins.variable}>
-               
+               <Topo/>
       
         {children}     
         
