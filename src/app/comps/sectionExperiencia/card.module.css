@@ -16,20 +16,17 @@
     background-color: #feb633;
 }
 
+.card h3{
+    font-size: 1.5rem;
+}
+
 .card small{
     font-size: 14px;
     font-style: italic;
-}
-.card h3{
-    font-size: 1.5rem;
 }
 
 @media (max-width:899px){
      .card{
         max-width: 100vw;
-     }
-
-     .card:hover{
-    background-color: normal;
      }
 }
