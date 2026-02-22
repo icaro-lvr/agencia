@@ -4,6 +4,7 @@
     align-items: flex-start;
     justify-content: center;
     max-width: 300px;
+    width: 100%;
     height: 400px;
     margin: 20px 0;
     padding: 20px;
@@ -21,4 +22,14 @@
 }
 .card h3{
     font-size: 1.5rem;
+}
+
+@media (max-width:899px){
+     .card{
+        max-width: 100vw;
+     }
+
+     .card:hover{
+    background-color: normal;
+     }
 }

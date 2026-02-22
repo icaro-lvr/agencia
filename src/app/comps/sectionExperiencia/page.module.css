@@ -1,15 +1,6 @@
-.sectionExp.dark{
-    background-color: #fff;
-    color: #fff;
-}
-
-
-.cards{
-    display: flex; 
-    flex-flow: row nowrap; 
-    justify-content: center;
-    align-items: center;
-    gap: 20px 0;
+:global(body.dark){
+    color: #CCCCCC;
+    background-color: #393838;
 }
 
 .container{
@@ -34,12 +25,28 @@
     margin: 0 41%;
 }
 
-:global(body.dark){
-    color: #CCCCCC;
-    background-color: #393838;
-}
-
 .container p{
     max-width: 600px;
 }
 
+
+.cards{
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+}
+
+
+@media (max-width:899px){
+     
+    .cards{
+        width: 100%;
+        padding: 20px;
+        gap: 0;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+}
