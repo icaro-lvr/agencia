@@ -29,7 +29,8 @@ const moonIcon = "/assets/Topo/moon.png";
     return(
 
         <header className={style.barraFixa} style={{
-            backgroundColor: isLightMode ? "#fff" : "#000"
+            backgroundColor: isLightMode ? "#fff" : "#252525",
+            transition: "0.3s"
         }}>
                 <Image src="/assets/Topo/logo.png" width={150} height={100} alt="Logo da Agência" className={style.logo}/>
                 <button onClick={alterarModo} className={style.modo}>
