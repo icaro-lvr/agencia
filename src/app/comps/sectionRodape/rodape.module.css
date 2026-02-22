@@ -44,7 +44,7 @@
     font-size: 16px;
     font-style: italic;
     padding: 10px 0;
-    width: 100vw;
+    width: 100vw ;
 }
 
 :global(body.dark) .copyright{
